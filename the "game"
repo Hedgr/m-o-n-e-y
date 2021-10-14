@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int money = 0;
+string get_money = "";
+
+int main() {
+    do {
+        
+            std::cout << "get money?" << std::endl;
+            std::cin >> get_money;
+        if(get_money == "yes") {
+            cout << "work for it, idiot\n";
+            money = (money + 0);
+        }
+        else {
+            cout << "money not aquired\n";
+        }
+        cout << "you have " << money << " money\n";
+    } while(true);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
